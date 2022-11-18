@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kebab</title>
+    <style>
+        body {
+            background-image: url('baza zdjec/background.jpg');
+            background-size: cover;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px;
+            height: 592px;
+        }
+    </style>
+    
+</head>
+<body >
+    <img id="przywitanie" src="baza zdjec/zdjecie startowe.jpg" alt="zdjecie lokalu">
+    <script>
+        const myTimeout = setTimeout(przywitanie, 2000);
+        function przywitanie() {
+        document.getElementById("przywitanie").src = "baza zdjec/przywitanie.jpg"; alt="przywitanie"
+        }
+    </script>
+</body>
+</html>
